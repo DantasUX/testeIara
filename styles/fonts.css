@@ -1,0 +1,89 @@
+/* Imports */
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-bold-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-bold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-bolditalic-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-medium-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-mediumitalic-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-mediumitalic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-regular-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-regularitalic-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-regularitalic-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-semibold-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('./../resources/fonts/cerebrisanspro-semibolditalic-webfont.woff2') format('woff2'),
+    url('./../resources/fonts/cerebrisanspro-semibolditalic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Fonts */
+.font--16 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.font--14 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.font--13 {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.font--11 {
+  font-size: 0.6875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}

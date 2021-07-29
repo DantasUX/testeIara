@@ -26259,82 +26259,118 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _microfone = require("./microfone");
   var _microfoneDefault = _parcelHelpers.interopDefault(_microfone);
+  require("../resources/images/icone01.png");
   var _jsxFileName = "C:\\Users\\danta\\OneDrive\\Documentos\\programacao\\testeIara\\testeiara\\src\\app.js", _s = $RefreshSig$();
   exports.default = App = _s(() => {
     _s();
     const [showNotificationPanel, setShowNotificationPanel] = _react.useState(false);
     const [notifications, setNotifications] = _react.useState([]);
+    const icone01 = require('../resources/images/icone01.png');
     const initNotifications = () => {
-      const notification1 = /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "flex card fill--gray1 radius--12 p--20",
+      const notification1 = /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: {
+          icone01
+        },
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
-          columnNumber: 7
+          lineNumber: 13,
+          columnNumber: 1
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "no--flex avatar radius--8",
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 9
-        }
-      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
-        src: "../resources/images/icone01.png",
-        alt: "Notificação",
-        __self: undefined,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12,
-          columnNumber: 11
-        }
-      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "flex column p-l--12",
+      }), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: require(icone01),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14,
-          columnNumber: 9
+          columnNumber: 1
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
-        className: "font--14 text--gray",
+      }), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: require({
+          icone01
+        }),
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15,
-          columnNumber: 11
+          columnNumber: 1
         }
-      }, "Seu ", /*#__PURE__*/_reactDefault.default.createElement("strong", {
+      }), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: "../resources/images/icone01.png",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16,
-          columnNumber: 17
+          columnNumber: 1
         }
-      }, "vocabulário personalizado"), " tem uma nova versão disponível!"), /*#__PURE__*/_reactDefault.default.createElement("p", {
-        className: "font--11 text--gray m-t--8",
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex card fill--gray1 radius--12 p--20",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19,
           columnNumber: 11
         }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: icone01,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 13
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex column p-l--12",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "font--14 text--gray",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 13
+        }
+      }, "Seu ", /*#__PURE__*/_reactDefault.default.createElement("strong", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 19
+        }
+      }, "vocabulário personalizado"), " tem uma nova versão disponível!"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "font--11 text--gray m-t--8",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 13
+        }
       }, "11 minutos atrás"), /*#__PURE__*/_reactDefault.default.createElement("p", {
         className: "font--13 text--gray m-t--16",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 11
+          lineNumber: 28,
+          columnNumber: 13
         }
       }, "A nova versão foi gerada a partir de ", /*#__PURE__*/_reactDefault.default.createElement("strong", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 50
+          lineNumber: 29,
+          columnNumber: 52
         }
       }, "120h"), " de gravações da sua voz e garante uma maior precisão na transcrição."), /*#__PURE__*/_reactDefault.default.createElement("button", {
         type: "button",
@@ -26342,16 +26378,16 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
-          columnNumber: 11
+          lineNumber: 32,
+          columnNumber: 13
         }
-      }, "Utilizar a nova versão")));
+      }, "Utilizar a nova versão"))));
       const notification2 = /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: "flex card fill--gray1 radius--12 p--20 m-t--12",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 44,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26359,7 +26395,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 45,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -26368,7 +26404,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 46,
           columnNumber: 11
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26376,7 +26412,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 48,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26384,14 +26420,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 49,
           columnNumber: 11
         }
       }, "Suas últimas gravações estão com", /*#__PURE__*/_reactDefault.default.createElement("strong", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 51,
           columnNumber: 13
         }
       }, "bastante ruído"), " no microfone!"), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26399,7 +26435,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 53,
           columnNumber: 11
         }
       }, "23 minutos atrás"), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26407,14 +26443,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 54,
           columnNumber: 11
         }
       }, "O ruído ", /*#__PURE__*/_reactDefault.default.createElement("strong", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46,
+          lineNumber: 55,
           columnNumber: 21
         }
       }, "atrapalha"), " a precisão da transcrição, podendo causar erros no seu laudo. Tente ir para um lugar mais silencioso.")));
@@ -26438,7 +26474,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74,
+          lineNumber: 83,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26446,7 +26482,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82,
+          lineNumber: 91,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26454,7 +26490,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83,
+          lineNumber: 92,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26464,7 +26500,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84,
+          lineNumber: 93,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26472,7 +26508,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 98,
           columnNumber: 15
         }
       }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26480,7 +26516,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92,
+          lineNumber: 101,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26488,7 +26524,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93,
+          lineNumber: 102,
           columnNumber: 13
         }
       }, "Notificações"), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26498,7 +26534,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 103,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26506,7 +26542,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99,
+          lineNumber: 108,
           columnNumber: 15
         }
       }, "Marcar todas como lidas")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26514,14 +26550,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106,
+          lineNumber: 115,
           columnNumber: 9
         }
       }, hasNotifications() ? notifications : /*#__PURE__*/_reactDefault.default.createElement("span", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107,
+          lineNumber: 116,
           columnNumber: 49
         }
       }, "Sem Notificações"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26533,14 +26569,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112,
+          lineNumber: 121,
           columnNumber: 7
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_microfoneDefault.default, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116,
+          lineNumber: 125,
           columnNumber: 9
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26548,7 +26584,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118,
+          lineNumber: 127,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26556,7 +26592,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119,
+          lineNumber: 128,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26564,7 +26600,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120,
+          lineNumber: 129,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26572,7 +26608,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121,
+          lineNumber: 130,
           columnNumber: 13
         }
       }, "Microfone")), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26580,7 +26616,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 132,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26588,7 +26624,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 133,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26596,7 +26632,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125,
+          lineNumber: 134,
           columnNumber: 13
         }
       }, "Configurações")), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26604,7 +26640,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 127,
+          lineNumber: 136,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26612,7 +26648,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128,
+          lineNumber: 137,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26620,7 +26656,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129,
+          lineNumber: 138,
           columnNumber: 13
         }
       }, "Status")), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26628,7 +26664,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 140,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26636,7 +26672,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 141,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26644,7 +26680,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133,
+          lineNumber: 142,
           columnNumber: 13
         }
       }, "Vocabulário")), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -26653,7 +26689,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135,
+          lineNumber: 144,
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("span", {
@@ -26661,7 +26697,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139,
+          lineNumber: 148,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -26669,7 +26705,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140,
+          lineNumber: 149,
           columnNumber: 13
         }
       }, "Notificações")))))
@@ -26681,7 +26717,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./microfone":"34jUn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"34jUn":[function(require,module,exports) {
+},{"react":"3b2NM","./microfone":"34jUn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../resources/images/icone01.png":"Gp55S"}],"34jUn":[function(require,module,exports) {
 var helpers = require("../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27008,6 +27044,6 @@ function registerExportsForReactRefresh(module) {
   }
 }
 
-},{"react-refresh/runtime":"592mh"}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire640e")
+},{"react-refresh/runtime":"592mh"}],"Gp55S":[function() {},{}]},["1j6wU","A7H4y","4ee1I"], "4ee1I", "parcelRequire640e")
 
-//# sourceMappingURL=index.fd532818.js.map
+//# sourceMappingURL=index.HASH_REF_62d5dab885897b04655082d4fd532818.js.map
