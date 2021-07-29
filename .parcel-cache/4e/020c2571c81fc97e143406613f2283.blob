@@ -1,0 +1,133 @@
+/* Componentes */
+
+.icon {
+  display: block;
+}
+
+.close {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(bb8b06b1a71ab725006d254122ab9bff);
+  background-size: contain;
+}
+
+.microphone--large {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url(70eb26e9fff449019ec20c03df93d5ed);
+  background-size: contain;
+}
+
+.microphone {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(4b4bc0fcd3eed0f958f0ce7b91c4240b);
+  background-size: contain;
+}
+
+.notification {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(5af177d40ecf2d7e0d2223ea3311d2f9);
+  background-size: contain;
+}
+
+.settings {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(24b43117196d0c742c830b3238ac6e0d);
+  background-size: contain;
+}
+
+.vocabulary {
+  width: 1.75rem;
+  height: 1.25rem;
+  background-image: url(e5ef14c6b645003047fa5e2d337bdee1);
+  background-size: contain;
+}
+
+.activity {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(c923fe9a95fdd735b36ed5194f301685);
+  background-size: contain;
+}
+
+.avatar {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: #FF4757;
+  color: #FFFFFF;
+  -webkit-box-shadow: unset;
+  -moz-box-shadow: unset;
+  box-shadow: unset;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  min-height: 2.5rem;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary:hover {
+  background-color: #ff5968;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary:focus {
+  background-color: #ff5968;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.button.fill--gray2:hover {
+  background-color: #222223;
+}
+
+.button.fill--gray2:focus {
+  background-color: #222223;
+}
+
+.waves {
+  height: 3.5rem;
+  width: 100%;
+}
+
+.card.fill--gray1:hover {
+  background-color: #1c1c1c;
+}
+
+.menu .menu--item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  margin: 0 0.25rem;
+}
+
+.menu .menu--item:nth-child(1) {
+  margin-left: 0;
+}
+
+.menu .menu--item:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.menu .menu--item:hover {
+  background-color: #212121;
+  cursor: pointer;
+}

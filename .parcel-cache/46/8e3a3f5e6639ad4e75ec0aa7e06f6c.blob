@@ -1,0 +1,78 @@
+/* Imports */
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('5267b2f7da96dbea6b9ad6d2d607a5c7') format('woff2'),
+    url('cdee3bb8271e15656f8798bef61831ea') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('548cff260095a09d032f08f4888d5ef6') format('woff2'),
+    url('f1f9bf412c8ea4fd876c87d133da7240') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('f17d23d71415ed9c17cddd1cacb73161') format('woff2'),
+    url('433f47b4388a7a404d0c3a33cbd5590f') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('2550590388cc780876472312ad11ced0') format('woff2'),
+    url('c1159fa364769461f46c0fe408b4a584') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('01b7b9c2075d6bf0dfd1cadca7295d09') format('woff2'),
+    url('e7cff3e3d007240287be70ac57fc9763') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('935ce80436245c69391d5e27c87e4312') format('woff2'),
+    url('9c5ea29587ca9989c2a471c09f07e7c2') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('fccf47cd251e2eda3f4e8e2dc0c22e7a') format('woff2'),
+    url('3632ce0bd581638e6fe180438644e0a7') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CerebriSansPro';
+  src: url('0a50b4412062eeedb62de13d7bd637aa') format('woff2'),
+    url('8101edf355a12772a5364a3b8fb98362') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+/* Fonts */
+.font--16 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+.font--14 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.font--13 {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.font--11 {
+  font-size: 0.6875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}

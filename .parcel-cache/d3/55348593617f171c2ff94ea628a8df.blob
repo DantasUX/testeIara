@@ -1,0 +1,134 @@
+/* Componentes */
+
+.icon {
+  display: block;
+}
+
+.close {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(close.HASH_REF_1234a42ff8961d6b3f95db1356e0352a.svg);
+  background-size: contain;
+}
+
+.microphone--large {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-image: url(microphone--large.HASH_REF_c3ce81ea8f890c775a7656afd9654a47.svg);
+  background-size: contain;
+}
+
+.microphone {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(microphone.HASH_REF_efefb5e2bafee83a9d7eebaa578ce896.svg);
+  background-size: contain;
+}
+
+.notification {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(notification.HASH_REF_942b23cea8e9d0d2bb359b0036bd4065.svg);
+  background-size: contain;
+}
+
+.settings {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(settings.HASH_REF_7a93404ccba3a6e40e7c4995dddd5d90.svg);
+  background-size: contain;
+}
+
+.vocabulary {
+  width: 1.75rem;
+  height: 1.25rem;
+  background-image: url(vocabulary.HASH_REF_52c99581ecbbb031d421bcf3c0ca2dbb.svg);
+  background-size: contain;
+}
+
+.activity {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-image: url(activity.HASH_REF_9ab0c98c03ad9337c12b3f2b14905d1c.svg);
+  background-size: contain;
+}
+
+.avatar {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: #FF4757;
+  color: #FFFFFF;
+  -webkit-box-shadow: unset;
+  -moz-box-shadow: unset;
+  box-shadow: unset;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  min-height: 2.5rem;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary:hover {
+  background-color: #ff5968;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary:focus {
+  background-color: #ff5968;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+.button.fill--gray2:hover {
+  background-color: #222223;
+}
+
+.button.fill--gray2:focus {
+  background-color: #222223;
+}
+
+.waves {
+  height: 3.5rem;
+  width: 100%;
+}
+
+.card.fill--gray1:hover {
+  background-color: #1c1c1c;
+}
+
+.menu .menu--item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  margin: 0 0.25rem;
+}
+
+.menu .menu--item:nth-child(1) {
+  margin-left: 0;
+}
+
+.menu .menu--item:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.menu .menu--item:hover {
+  background-color: #212121;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.HASH_REF_dc0382c9a80eee3886ad1d00c0461fa5.css.map */
